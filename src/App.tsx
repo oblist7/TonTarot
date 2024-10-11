@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import './App.css'
 import NewPage from './NewPage';
+import { TonConnectButton, TonConnectUIProvider } from '@tonconnect/ui-react';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -23,9 +24,16 @@ function App() {
                   <p>
                     Откройте тайны судьбы с помощью бота Таро. Задайте вопрос и получите мудрые ответы карт на ваши жизненные ситуации.
                   </p>
+                  <TonConnectUIProvider manifestUrl="https://oblist7.github.io/TonTarot/tonconnect-manifest.json">
+                    <div className="center-button">
+                      <TonConnectButton className="my-button-class" />
+                    </div>
+                    { /* Your app */ }
+                  </TonConnectUIProvider>
+
                   {/* Кнопка для открытия новой страницы */}
                   <Link to="/new-page">
-                    <button>Открыть новую страницу</button>
+                    <button>Получить предсказание</button>
                   </Link>
                 </div>
                 <p className="read-the-docs">tg: @Syrym</p>
