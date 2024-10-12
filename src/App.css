@@ -47,3 +47,60 @@
   align-items: center;
   height: 30vh;
 }
+
+.gradientPartOfTitle-ZDk4WvD1 {
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(90deg,#ff77b8,#ff4c84 16.67%,#ff513f 33.85%,#ff3828 51.04%,#e1258c 67.71%,#8d22bc 83.33%,#a67dfd);
+  margin-inline:auto;padding-bottom: 4px;
+  width: fit-content;
+  -webkit-text-fill-color: #0000;
+  /* text-fill-color: #0000; */
+  -webkit-user-select: none;
+  user-select: none
+}
+
+.title-ZDk4WvD1 {
+  align-items: center;
+  font-family: EuclidCircularSemibold,sans-serif;
+  font-feature-settings: "tnum" on,"lnum" on;
+  text-align: center;
+  -webkit-user-select: none;
+  user-select: none;
+  --ui-lib-typography-line-height: 40px;
+  line-height: var(--ui-lib-typography-line-height);
+  --ui-lib-typography-font-size: 40px;
+  font-size: var(--ui-lib-typography-font-size);
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: -.02em
+}
+
+
+.content-FujgyDpN {
+  font-family: -apple-system,BlinkMacSystemFont,Trebuchet MS,Roboto,Ubuntu,sans-serif;
+  font-feature-settings: "tnum" on,"lnum" on;
+  font-size: calc(var(--ui-lib-size-defaulted-xsmall)*14px + var(--ui-lib-size-defaulted-small)*16px + var(--ui-lib-size-defaulted-medium)*16px + var(--ui-lib-size-defaulted-large)*16px + var(--ui-lib-size-defaulted-xlarge)*18px + var(--ui-lib-size-defaulted-xxlarge)*20px);
+  font-style: normal;
+  font-weight: calc(var(--ui-lib-size-defaulted-xsmall)*400 + var(--ui-lib-size-defaulted-small)*500 + var(--ui-lib-size-defaulted-medium)*500 + var(--ui-lib-size-defaulted-large)*500 + var(--ui-lib-size-defaulted-xlarge)*600 + var(--ui-lib-size-defaulted-xxlarge)*600);
+  line-height: calc(var(--ui-lib-size-defaulted-xsmall)*18px + var(--ui-lib-size-defaulted-small)*24px + var(--ui-lib-size-defaulted-medium)*24px + var(--ui-lib-size-defaulted-large)*24px + var(--ui-lib-size-defaulted-xlarge)*24px + var(--ui-lib-size-defaulted-xxlarge)*24px);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap
+}
+
+.gradientBorder-XcCgjF8x {
+  background: linear-gradient(90deg,#d9d9d9,#d2e4ef 22.92%,#c7deea 37.5%,#22b8d7 52.6%,#0c6ef0 68.23%,#25c3da);
+  bottom: 1px;
+  height: 100%;
+  max-height: 1px;
+  opacity: .5;
+  position: absolute;
+  transition: .3s;
+  width: 100%
+}
+
+.gradientBorder-XcCgjF8x.shown-XcCgjF8x {
+  max-height: 2px;
+  opacity: 1
+}
